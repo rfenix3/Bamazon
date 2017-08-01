@@ -30,7 +30,7 @@ $ npm install console.table --save
 ```
 $ node bamazonCustomer.js
 ```
-* Sample Screen Capture
+* Customer View Sample Screen Capture
 ```
 ===============================================================================================
 
@@ -68,5 +68,88 @@ $ node bamazonCustomer.js
 	Thank you for your order.  Your order will shipment soon!
 								
 +-------------------------------------------------------------------------------------+
+```
+* Manager View Sample Screen Capture
+```
+ $ node bamazonManager.js
+ ===============================================================================================
+
+                             WELCOME TO BAMAZON
+			     (MANAGER Interface)
+ -----------------------------------------------------------------------------------------------
+ ? MANAGER PRODUCTS MAINTENANCE MENU VIEW Products for Sale
+ Check input: VIEW Products for Sale.
+
+
+ --------------------------------------------------------------------------------------------------------------------------------------
+  item_id  product_name                                                                 department_name           price   stock_quantity
+ -------  ---------------------------------------------------------------------------  ------------------------  ------  --------------
+  1        3-Button USB Wired Mouse (Black)                                             Electronics               6.94    81
+  2        Wireless Mouse with Nano Receiver (MGR0975)                                  Electronics               9.49    93
+  3        Backpack for Laptops Up To 17"                                               Electronics               29.99   9
+  4        Mid-Back Mesh Chair                                                          Office Products           62.99   10
+  5        LED Desk Lamp Fugetek FT-L798, 5-Level Dimmer, Touch Control Panel (Black)   Office Products           23.99   10
+  6        100 Watt Equivalent, Daylight, Non-Dimmable, A21 LED Light Bulb, 6-pack      Tools & Home Improvement  19.99   200
+  7        Foscam 720P HD WiFi NVR Security System (Pre-installed 1TB HDD) - 4 Cameras  Tools & Home Improvement  349.99  20
+  8        Honeywell HT-900 TurboForce Air Circulator Fan, Black                        Tools & Home Improvement  11.96   16
+  9        Extra Large 79" x 40"! Kids Carpet Playmat Rug City Life                     Home & Kitchen            29.99   38
+  10       Large Wall Clock Silent & Non-Ticking - Indoor/Outdoor                       Home & Kitchen            14.99   24
+
+ ? MANAGER PRODUCTS MAINTENANCE MENU VIEW Low Inventory
+  Check input: VIEW Low Inventory.
+
+
+  --------------------------------------------------------------
+  item_id  product_name                    price  stock_quantity
+  -------  ------------------------------  -----  --------------
+  3        Backpack for Laptops Up To 17"  29.99  9
+
+  ? MANAGER PRODUCTS MAINTENANCE MENU ADD to Inventory
+  Check input: ADD to Inventory.
+  ? Enter the id of the product:  3
+  ? Enter how many more you like to all:  12
+  update successful!.
+
+
+  --------------------------------------------------------------------------------------------------------------------------------------
+  item_id  product_name                                                                 department_name           price   stock_quantity
+  -------  ---------------------------------------------------------------------------  ------------------------  ------  --------------
+  1        3-Button USB Wired Mouse (Black)                                             Electronics               6.94    81
+  2        Wireless Mouse with Nano Receiver (MGR0975)                                  Electronics               9.49    93
+  3        Backpack for Laptops Up To 17"                                               Electronics               29.99   12
+  4        Mid-Back Mesh Chair                                                          Office Products           62.99   10
+  5        LED Desk Lamp Fugetek FT-L798, 5-Level Dimmer, Touch Control Panel (Black)   Office Products           23.99   10
+  6        100 Watt Equivalent, Daylight, Non-Dimmable, A21 LED Light Bulb, 6-pack      Tools & Home Improvement  19.99   200
+  7        Foscam 720P HD WiFi NVR Security System (Pre-installed 1TB HDD) - 4 Cameras  Tools & Home Improvement  349.99  20
+  8        Honeywell HT-900 TurboForce Air Circulator Fan, Black                        Tools & Home Improvement  11.96   16
+  9        Extra Large 79" x 40"! Kids Carpet Playmat Rug City Life                     Home & Kitchen            29.99   38
+  10       Large Wall Clock Silent & Non-Ticking - Indoor/Outdoor                       Home & Kitchen            14.99   24
+
+  ? MANAGER PRODUCTS MAINTENANCE MENU ADD New Product
+  Check input: ADD New Product.
+  ? Enter product name:  Atlanta Ref Magnet
+  ? Enter department:  Home & Kitchen
+  ? Enter product price:  3.50
+  ? Enter product quantity:  12
+  Add new product successful!
+
+
+ --------------------------------------------------------------------------------------------------------------------------------------
+ item_id  product_name                                                                 department_name           price   stock_quantity
+ -------  ---------------------------------------------------------------------------  ------------------------  ------  --------------
+ 1        3-Button USB Wired Mouse (Black)                                             Electronics               6.94    81
+ 2        Wireless Mouse with Nano Receiver (MGR0975)                                  Electronics               9.49    93
+ 3        Backpack for Laptops Up To 17"                                               Electronics               29.99   12
+ 4        Mid-Back Mesh Chair                                                          Office Products           62.99   10
+ 5        LED Desk Lamp Fugetek FT-L798, 5-Level Dimmer, Touch Control Panel (Black)   Office Products           23.99   10
+ 6        100 Watt Equivalent, Daylight, Non-Dimmable, A21 LED Light Bulb, 6-pack      Tools & Home Improvement  19.99   200
+ 7        Foscam 720P HD WiFi NVR Security System (Pre-installed 1TB HDD) - 4 Cameras  Tools & Home Improvement  349.99  20
+ 8        Honeywell HT-900 TurboForce Air Circulator Fan, Black                        Tools & Home Improvement  11.96   16
+ 9        Extra Large 79" x 40"! Kids Carpet Playmat Rug City Life                     Home & Kitchen            29.99   38
+ 10       Large Wall Clock Silent & Non-Ticking - Indoor/Outdoor                       Home & Kitchen            14.99   24
+ 11       Atlanta Ref Magnet                                                           Home & Kitchen            3.5     12
+
+ ? MANAGER PRODUCTS MAINTENANCE MENU EXIT
+ Check input: EXIT.
 ```
 
