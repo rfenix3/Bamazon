@@ -1,8 +1,6 @@
-# bamazonCustomer and bamazonManager
-BamazonCustomer is an Amazon-like storefront application that allows a customer to view and buy products. 
-BamazonManager is an application used to manage the products sold to customers. It can update the stock's quantity or add an entirely new product.
-They can both display the item ID, product description, and price that is stored in a MySQL database. 
-
+# bamazon (Customer View and Manager View)
+Bamazon is an Amazon-like store-front application that allows a customer to view and buy products and a manager to maintain product inventory. 
+It is composed of 2 main applications: bamazonCustomer.js and bamazonManager.js. The product records are stored and maintained in an SQL Database (MySQL). They can both display the Item ID, Product Name, and Price of each item.  The Manager view(bamazonManager.js) has extra functions that enables the user to view and edit a product's inventory level or add an new product. 
 ## Technology Used
 * Node.js
 * inquirer (npm)
