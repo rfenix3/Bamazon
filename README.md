@@ -30,7 +30,7 @@ $ npm install console.table --save
 ```
 $ node bamazonCustomer.js
 ```
-* Customer View Sample Screen Capture
+* Customer View Sample Run (Screen Capture)
 ```
 ===============================================================================================
 
@@ -50,8 +50,8 @@ $ node bamazonCustomer.js
  9        Extra Large 79" x 40"! Kids Carpet Playmat Rug City Life                     29.99
  10       Large Wall Clock Silent & Non-Ticking - Indoor/Outdoor                       14.99
 
- ? Enter the Item ID of the product you would like to buy or press [ctrl]+[c] to exit: 2
- ? how many units of the product you would like to buy? 4
+ ? Enter the Item ID of the product you would like to buy or press [ctrl]+[c] to exit: **2**
+ ? how many units of the product you would like to buy? **4**
  +---------------------------------------------------------------------------------------------
  <<< Yes you can buy this! >>>
 
@@ -60,7 +60,7 @@ $ node bamazonCustomer.js
 
  +-------------------------------------------------------------------------------------+
 
-  ? Confirm Order: Yes
+  ? Confirm Order: **Yes**
 
  +-------------------------------------------------------------------------------------+
 
@@ -69,7 +69,21 @@ $ node bamazonCustomer.js
 								
 +-------------------------------------------------------------------------------------+
 ```
-* Manager View Sample Screen Capture
+* Manager View Menu Screen Capture
+```
+===============================================================================================
+
+                             WELCOME TO BAMAZON
+                             (MANAGER Interface)
+ ------------------------------------------------------------------------------------------------
+ ? MANAGER PRODUCTS MAINTENANCE MENU (Use arrow keys)
+ ** > VIEW Products for Sale **
+    VIEW Low Inventory
+    ADD to Inventory
+    ADD New Product
+    EXIT
+```
+* Manager View Sample Run (Screen Capture)
 ```
  $ node bamazonManager.js
  ===============================================================================================
@@ -77,8 +91,7 @@ $ node bamazonCustomer.js
                              WELCOME TO BAMAZON
 			     (MANAGER Interface)
  -----------------------------------------------------------------------------------------------
- ? MANAGER PRODUCTS MAINTENANCE MENU VIEW Products for Sale
- Check input: VIEW Products for Sale.
+ ? MANAGER PRODUCTS MAINTENANCE MENU **VIEW Products for Sale**
 
 
  --------------------------------------------------------------------------------------------------------------------------------------
@@ -95,8 +108,7 @@ $ node bamazonCustomer.js
   9        Extra Large 79" x 40"! Kids Carpet Playmat Rug City Life                     Home & Kitchen            29.99   38
   10       Large Wall Clock Silent & Non-Ticking - Indoor/Outdoor                       Home & Kitchen            14.99   24
 
- ? MANAGER PRODUCTS MAINTENANCE MENU VIEW Low Inventory
-  Check input: VIEW Low Inventory.
+ ? MANAGER PRODUCTS MAINTENANCE MENU **VIEW Low Inventory**
 
 
   --------------------------------------------------------------
@@ -104,11 +116,11 @@ $ node bamazonCustomer.js
   -------  ------------------------------  -----  --------------
   3        Backpack for Laptops Up To 17"  29.99  9
 
-  ? MANAGER PRODUCTS MAINTENANCE MENU ADD to Inventory
-  Check input: ADD to Inventory.
-  ? Enter the id of the product:  3
-  ? Enter how many more you like to all:  12
-  update successful!.
+  ? MANAGER PRODUCTS MAINTENANCE MENU **ADD to Inventory**
+  
+  ? Enter the id of the product:  **3**
+  ? Enter how many more you like to add:  **12**
+  *update successful!*
 
 
   --------------------------------------------------------------------------------------------------------------------------------------
@@ -125,13 +137,13 @@ $ node bamazonCustomer.js
   9        Extra Large 79" x 40"! Kids Carpet Playmat Rug City Life                     Home & Kitchen            29.99   38
   10       Large Wall Clock Silent & Non-Ticking - Indoor/Outdoor                       Home & Kitchen            14.99   24
 
-  ? MANAGER PRODUCTS MAINTENANCE MENU ADD New Product
-  Check input: ADD New Product.
-  ? Enter product name:  Atlanta Ref Magnet
-  ? Enter department:  Home & Kitchen
-  ? Enter product price:  3.50
-  ? Enter product quantity:  12
-  Add new product successful!
+  ? MANAGER PRODUCTS MAINTENANCE MENU **ADD New Product**
+  
+  ? Enter product name:  **Atlanta Ref Magnet**
+  ? Enter department:  **Home & Kitchen**
+  ? Enter product price:  **3.50**
+  ? Enter product quantity:  **12**
+  *Add new product successful!*
 
 
  --------------------------------------------------------------------------------------------------------------------------------------
@@ -147,9 +159,9 @@ $ node bamazonCustomer.js
  8        Honeywell HT-900 TurboForce Air Circulator Fan, Black                        Tools & Home Improvement  11.96   16
  9        Extra Large 79" x 40"! Kids Carpet Playmat Rug City Life                     Home & Kitchen            29.99   38
  10       Large Wall Clock Silent & Non-Ticking - Indoor/Outdoor                       Home & Kitchen            14.99   24
- 11       Atlanta Ref Magnet                                                           Home & Kitchen            3.5     12
+ 11       *Atlanta Ref Magnet                                                           Home & Kitchen            3.5     12*
 
- ? MANAGER PRODUCTS MAINTENANCE MENU EXIT
- Check input: EXIT.
+ ? MANAGER PRODUCTS MAINTENANCE MENU **EXIT**
+ 
 ```
 

@@ -34,7 +34,6 @@ function bamazonManager() {
     })
     .then(function(answer) {
       // Create Switch case to handle selection
-      	console.log("Check input: " + answer.managerChoice + ".");
 		switch (answer.managerChoice) {
     		case "VIEW Products for Sale":
     			viewProducts();
